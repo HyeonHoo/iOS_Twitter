@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EB3EFA62A5A775A002E3301 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB3EFA52A5A775A002E3301 /* Extensions.swift */; };
 		4EB641FE2A5695AA0029CBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB641FD2A5695AA0029CBAB /* AppDelegate.swift */; };
 		4EB642002A5695AA0029CBAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB641FF2A5695AA0029CBAB /* SceneDelegate.swift */; };
 		4EB642052A5695AA0029CBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB642032A5695AA0029CBAB /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EB3EFA52A5A775A002E3301 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4EB641FA2A5695AA0029CBAB /* TwitterTuroial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterTuroial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB641FD2A5695AA0029CBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB641FF2A5695AA0029CBAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		4EB642112A5695FC0029CBAB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4EB3EFA52A5A775A002E3301 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				4EB6421F2A56A7770029CBAB /* NotificationsController.swift in Sources */,
 				4EB642212A56A7950029CBAB /* ConversationsController.swift in Sources */,
 				4EB641FE2A5695AA0029CBAB /* AppDelegate.swift in Sources */,
+				4EB3EFA62A5A775A002E3301 /* Extensions.swift in Sources */,
 				4EB6421D2A56A7610029CBAB /* ExploreController.swift in Sources */,
 				4EB642002A5695AA0029CBAB /* SceneDelegate.swift in Sources */,
 				4EB642192A5697C30029CBAB /* MainTabController.swift in Sources */,

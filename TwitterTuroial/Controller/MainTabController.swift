@@ -10,17 +10,44 @@ import UIKit
 class MainTabController: UITabBarController {
     
     //MARK: - Properties
-    
+        
+    let actionButton: UIButton = { //모든 뷰컨트롤러에 보여주기 위해서 maintab에 작성합니다.
+        let button = UIButton(type: .system)
+        button.tintColor = .white
+        button.backgroundColor = .twitterBlue
+        button.setImage(UIImage(named: "new_tweet"), for: .normal)
+       // button.addTarget(self, action: #selector(actionButtonTapped), for: .touchUpInside)
+        return button
+    }()
     //MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         configureViewControllers()
+        configureUI()
+        
        
     }
+    //MARK: - Selectors
+    
+    @objc func actionButtonTapped() {
+        print(123)
+    }
+    
     
     //MARK: - Helpers
+    
+    func configureUI(){ //버튼의 제약조건을 설정합니다.
+        view.addSubview(actionButton)
+        actionButton.addTarget(self, action: #selector(actionButtonTapped), for: .touchUpInside) 
+        //클로저 내부에 addTarget을 추가할 때,self는 해당 클로저의 범위가 아닌 독립 실행 파일(MainTabController.self)을 참조하기 때문에 configureUI 메서드로 옮겼습니다.
+        
+        actionButton.anchor(bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.rightAnchor,
+                            paddingBottom: 64, paddingRight: 16, width: 56, height: 56)
+                            //safeAreaLayoutGuide 모든 기기에서 동일한 위치에 만들기위해 사용합니다.
+        actionButton.layer.cornerRadius = 56 / 2
+    }
     
     func configureViewControllers(){
         
