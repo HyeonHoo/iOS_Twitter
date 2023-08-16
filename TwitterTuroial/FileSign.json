@@ -1,0 +1,597 @@
+{
+    "WORD": {
+        "magic": [
+            "512,ECA5C100",
+            "0,504B0304",
+            "0,D0CF11E0A1B11AE1",
+            "0,9BA5",
+            "0,0D444F43",
+            "0,CF11E0A1B11AE100",
+            "0,31BE000000AB",
+            "0,DBA52D00"
+        ],
+        "mime": [
+            "application/msword",
+            "application/dot",
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
+            "application/vnd.ms-word.document.macroEnabled.12",
+            "application/vnd.ms-word.template.macroEnabled.12"
+        ]
+    },
+    "EXCEL": {
+        "magic": [
+            "0,D0CF11E0A1B11AE1",
+            "0,504B0304",
+            "512,FDFFFFFF20000000",
+            "0,0902060000001000 ",
+            "0,0904060000001000",
+            "512,0908100000060500",
+            "512,FDFFFFFF"
+        ],
+        "mime": [
+            "application/vnd.ms-excel",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.ms-excel.sheet.macroEnabled.12",
+            "application/vnd.ms-excel.sheet.binary.macroEnabled.12",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.template",
+            "application/vnd.ms-excel.template.macroEnabled.12",
+            "application/vnd.ms-excel.addin.macroEnabled.12"
+
+        ]
+    },
+    "POWER": {
+        "magic": [
+            "0,D0CF11E0A1B11AE1",
+            "0,504B0304",
+            "0,504B030414000600",
+            "512,A0461DF0",
+            "512,FDFFFFFF",
+            "512,006E1EF0",
+            "512,0F00E803"
+        ],
+        "mime": [
+            "application/vnd.ms-powerpoint",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "application/vnd.ms-powerpoint.presentation.macroEnabled.12",
+            "application/vnd.openxmlformats-officedocument.presentationml.template",
+            "application/vnd.ms-powerpoint.template.macroEnabled.12",
+            "application/vnd.openxmlformats-officedocument.presentationml.slideshow",
+            "application/vnd.ms-powerpoint.slideshow.macroEnabled.12",
+            "application/vnd.ms-powerpoint.addin.macroEnabled.12",
+            "application/vnd.ms-powerpoint",
+            "application/vnd.ms-officetheme",
+            "application/vnd.ms-powerpoint.addin"
+        ]
+    },
+    "HANGUL": {
+        "magic": [
+            "0,485750",
+            "0,D0CF11E0A1B11AE1",
+            "0,48575020446F63756D656E742046696C65",
+            "0,504B0304"
+        ],
+        "mime": [
+            "application/x-hwp",
+            "application/vnd.hancom.hwp",
+            "application/haansofthwp",
+            "application/vnd.hynix.ics",
+            "application/hwp",
+            "application/vnd.hancom.hwpx",
+            "application/haansofthwpx",
+            "application/hwp+zip",
+            "aplication/vnd.hancom.hwt",
+            "application/haansofthwt",
+            "application/x-hwt"
+
+        ]
+    },
+    "SXW": {
+        "magic": [
+            "0,504B0304"
+        ],
+        "mime": [
+            "application/vnd.sun.xml.writer",
+            "application/vnd.oasis.opendocument.text",
+            "application/vnd.oasis.opendocument.text-template",
+            "application/vnd.oasis.opendocument.text-master",
+            "application/vnd.oasis.opendocument.text-master-template",
+            "application/vnd.oasis.opendocument.text-web"
+        ]
+    },
+    "SXC": {
+        "magic": [
+            "0,504B0304"
+        ],
+        "mime": [
+            "application/vnd.sun.xml.calc",
+            "application/vnd.oasis.opendocument.spreadsheet",
+            "application/vnd.sun.xml.calc.template",
+            "application/vnd.oasis.opendocument.spreadsheet-template"
+        ]
+    },
+    "SXI": {
+        "magic": [
+            "0,504B0304"
+        ],
+        "mime": [
+            "application/vnd.sun.xml.impress",
+            "application/vnd.oasis.opendocument.presentation",
+            "application/vnd.sun.xml.impress.template",
+            "application/vnd.oasis.opendocument.presentation-template"
+        ]
+    },
+    "HANDY":{
+        "magic": [
+            "0,48616E6479736F6674",
+            "0,48616E6479536F6674",
+            "0,485750",
+            "0,D0CF11E0A1B11AE1",
+            "0,48575020446F63756D656E742046696C65"
+        ],
+        "mime": [
+            "application/octet-stream"
+        ]
+    },
+    "JTD":{
+        "magic": [
+            "0,5C0048004D004200"
+        ],
+        "mime":[
+            "application/x-js-taro"
+        ]
+    },
+    "ZIP":{
+        "magic": [
+            "0,504B0304",
+            "0,504B",
+            "30,504B4C495445",
+            "526,504B537058",
+            "29152,57696E5A6970"
+        ],
+        "mime": [
+            "application/zip"
+        ]
+    },
+    "ALZIP":{
+        "magic": [
+            "0,414C5A01"
+        ],
+        "mime": [
+            "application/octet-stream"
+        ]
+    },
+    "EGG":{
+        "magic": [
+            "0,454747410001",
+            "0,414C5A014101"
+        ],
+        "mime": [
+            "application/x-egg",
+            "application/octet-stream"
+        ]
+    },
+    "RAR":{
+        "magic": [
+            "0,52617221",
+            "0,526172211A07"
+        ],
+        "mime": [
+            "application/vnd.rar",
+            "application/x-rar",
+            "application/x-rar-compressed"
+        ]
+    },
+    "TAR":{
+        "magic": [
+            "257,7573746172",
+            "ustar"
+        ],
+        "mime": [
+            "application/x-tar"
+        ]
+    },
+    "BZIP": {
+        "magic": [
+            "0,425A68",
+            "257,7573746172"
+        ],
+        "mime": [
+            "application/x-bzip2",
+            "application/x-bzip"
+        ]
+    },
+    "7Z": {
+        "magic": [
+            "0,377ABCAF271C"
+        ],
+        "mime": [
+            "application/x-7z-compressed"
+        ]
+    },
+    "GZ": {
+        "magic": [
+            "0,1F8B"
+        ],
+        "mime": [
+            "application/gzip",
+            "application/x-gzip"
+        ]
+    },
+    "HTML": {
+        "magic": [
+            "0,3C48544D4C3E",
+            "0,3C68746D6C3E",
+            "0,3C21444F4354"
+        ],
+        "mime": [
+            "text/html"
+        ]
+    },
+    "XML":{
+        "magic": [
+            "0,3C3F786D6C207665",
+            "0,EFBBBF3C3F786D6C",
+            "0,FFFE3C003F007800"
+        ],
+        "mime": [
+            "application/xml",
+            "text/xml",
+            "application/xml-dtd",
+            "application/xml-external-parsed-entity",
+            "application/xml-patch+xml"
+        ]
+    },
+    "SWF":{
+        "magic": [
+            "0,465753",
+            "0,435753",
+            "0,5A5753",
+            "0,464C56"
+        ],
+        "mime":[
+            "application/x-shockwave-flash"
+        ]
+    },
+    "MDB":{
+        "magic": [
+            "0,000100005374616E"
+        ],
+        "mime":[
+            "application/vnd.ms-access",
+            "application/x-msaccess",
+            "application/msaccess",
+            "application/vnd.msaccess",
+            "application/x-mdb"
+        ]
+    },
+    "MDI":{
+        "magic": [
+            "0,45502A00",
+            "0,D0CF11E0A1B11AE1"
+        ],
+        "mime": [
+            "image/vnd.ms-modi"
+            
+        ]
+    },
+    "MSG":{
+        "magic": [
+            "0,D0CF11E0A1B11AE1",
+            "512,52006F006F007400200045006E00740072007900",
+            "512,FDFFFFFF04"
+        ],
+        "mime": [
+            "application/vnd.ms-outlook",
+            "application/msoutlook",
+            "application/softgrid-msg"
+        ]
+    },
+    "KEYNOTE":{
+        "magic": [
+            "28,0000446174612F6D74",
+            "60,446174612F6D74",
+            "32,446174612F6D74"
+        ],
+        "mime": [
+            "application/vnd.apple.keynote",
+            "application/zip"
+        ]
+    },
+    "PAGES":{
+        "magic": [
+            "28,0000496E646578",
+            "60,496E6465782F446F63756D656E74",
+            "32,496E6465782F446F63756D656E74",
+            "60,496E646578",
+            "32,496E646578"
+        ],
+        "mime": [
+            "application/vnd.apple.pages",
+            "application/zip"
+        ]
+    },
+    "NUMBERS":{
+        "magic": [
+            "28,0000496E646578",
+            "60,496E6465782F446F63756D656E74",
+            "32,496E6465782F446F63756D656E74",
+            "60,496E646578",
+            "32,496E646578"
+        ],
+        "mime": [
+            "application/vnd.apple.numbers",
+            "application/zip"
+        ]
+    },
+    "XPS":{
+        "magic": [
+            "62,436F6E74656E745F",
+            "31,436F6E74656E745F"
+            
+        ],
+        "mime": [
+            "application/vnd.ms-xpsdocument",
+            "application/zip"
+        ]
+    },
+    "CHM":{
+        "magic": [
+            "0,49545346"
+        ],
+        "mime": [
+            "application/vnd.ms-htmlhelp",
+            "application/octet-stream"
+        ]
+    },
+    "WPD":{
+        "magic": [
+            "0,FF575043"
+        ],
+        "mime": [
+            "application/vnd.wordperfect",
+            "application/octet-stream"
+        ]
+    },
+    "DICOM":{
+        "magic": [
+            "128,4449434D"
+        ],
+        "mime": [
+            "application/dicom",
+            "application/dicom+json",
+            "application/dicom+xml"
+        ]
+    },
+    "MP3":{
+        "magic": [
+            "0,49443304",
+            "0,FFFB",
+            "0,FFF3",
+            "0,FFF2",
+            "0,FFF4",
+            "0,FFFC"
+        ],
+        "mime": [
+            "audio/mpeg",
+            "audio/mp3",
+            "audio",
+            "audio/x-mpegaudio",
+            "audio/x-mpg",
+            "domino audiofile",
+            "lyd/mpeg",
+            "audio/mp2"
+        ]        
+    },
+    "MP4":{
+        "magic": [
+            "4,66747970"
+        ],
+        "mime": [
+            "video/mp4",
+            "video/mpeg4-generic",
+            "application/mp4",
+            "video/mp4v-es"
+        ]
+    },
+    "ISO":{
+        "magic": [
+            "32767,4344303031",
+            "32769,4344303031",
+            "34817,4344303031",
+            "36865,4344303031",
+            "32768,4344303031"
+        ],
+        "mime":[
+            "application/octet-stream",
+            "application/x-iso9660-image"
+        ]
+    },
+    "ICON": {
+        "magic": [
+            "0,00000100"
+        ],
+        "mime":[
+            "image/vnd.microsoft.icon"
+        ]
+    },
+    "JPEG":{
+        "magic": [
+            "0,FFD8",
+            "0,CF8401",
+            "0,0000000C6A5020200D0A870A",
+            "00 00000C4A584C200D0A870A"
+        ],
+        "mime": [
+            "image/jpeg",
+            "image/jls",
+            "video/JPEG",
+            "video/jpeg2000"
+        ]
+    },
+    "PNG":{
+        "magic": [
+            "0,89504E470D0A1A0A"
+        ],
+        "mime": [
+            "image/png"
+        ]
+    },
+    "GIF":{
+        "magic": [
+            "0,47494638",
+            "GIF87a",
+            "GIF89a"
+        ],
+        "mime": [
+            "image/gif",
+            "application/gif"
+        ]
+    },
+    "BMP":{
+        "magic": [
+            "0,424D"
+        ],
+        "mime": [
+            "image/bmp",
+            "application/bmp",
+            "image/bitmap",
+            "image/x-bmp",
+            "image/x-ms-bmp"
+        ]
+    },
+    "XDW":{
+        "magic": [
+            "0,1D49530E"
+        ],
+        "mime": [
+            "application/vnd.fujixerox.docuworks",
+            "application/vnd.fujixerox.docuworks.binder",
+            "application/vnd.fujixerox.docuworks.container",
+            "application/vnd.fujifilm.fb.docuworks",
+            "application/vnd.fujifilm.fb.docuworks.binder",
+            "application/vnd.fujifilm.fb.docuworks.container"
+        ]
+    },
+    "WRI":{
+        "magic": [
+            "0,31BE",
+            "0,7B5C72746631",
+            "0,BE000000AB0000000000000000" 
+        ],
+        "mime": [
+            "application/x-mswrite",
+            "application/octet-stream"
+        ]
+    },
+    "RTF":{
+        "magic": [
+           "0,7B5C72746631"
+        ],
+        "mime": [
+            "application/rtf",
+            "text/richtext",
+            "text/rtf",
+            "x-softmaker-tm",
+            "application/msword",
+            "application/softgrid-rtf"
+        ]
+    },
+    "PDF":{
+        "magic":[
+            "%PDF",
+            "0,25504446"
+        ],
+        "mime":[
+            "application/pdf"
+        ]
+    },
+    "OVBA":{
+        "magic":[
+            "0,504B0304",
+            "0,417474726962757465",
+            "0,D0CF11E0A1B11AE1",
+            "512,FDFFFFFF"
+        ],
+        "mime":[
+            "text/plain",
+            "text/vbscript"
+        ]
+    },
+    "BAT":{
+        "magic":[
+            "0,52454D2044756D6D",
+            "0,404543484F204F4646",
+            "0,6563686F206F6666"
+        ],
+        "mime":[
+            "application/batch-SMTP",
+            "text/x-msdos-batch",
+            "text/plain",
+            "application/octet-stream",
+            "application/bat",
+            "application/x-bat"
+        ]
+    },
+    "MHT": {
+        "magic":[
+            "98,2D2D2D2D2D2D3D5F4E657874506172745F",
+            "98,2D2D2D2D3D5F4E65787450617274",
+            "178,2D2D2D2D3D5F4E65787450617274",
+            "88,222D2D2D2D3D5F4E65787450617274",
+            "92,4E65787450617274",
+            "94,65787450617274",
+            "178,2D2D2D2D3D5F4E65787450617274"
+        ],
+        "mime": [
+            "text/plain",
+            "multipart/related",
+            "message/rfc822",
+            "application/x-mimearchive"
+            
+        ]
+    },
+    "PST": {
+        "magic": [
+            "0,2142444E",
+            "0,2142444E4D374CCA"
+        ],
+        "mime": [
+            "application/vnd.ms-outlook",
+            "application/vnd.ms-outlook-pst",
+            "application/octet-stream"
+        ]
+    },
+    "CAD": {
+        "magic": [
+            "0,4143",
+            "0,41433130",
+            "0,312E",
+            "0,3130" 
+        ],
+        "mime": [
+            "image/vnd.dwg",
+            "application/vnd.microstation.dgn",
+            "application/dgn",
+            "image/vnd.dxf",
+            "application/cad",
+            "application/octet-stream"
+        ]
+    },
+    "CELL":{
+        "magic":[
+            "0,504B0304"
+        ],
+        "mime":[
+            "application/octet-stream"
+        ]
+    },
+    "DGN": {
+        "magic": [
+            "0,D0CF11E0A1B11AE1"
+        ],
+        "mime": [
+            "application/vnd.ms-office"
+        ]
+    }
+}
